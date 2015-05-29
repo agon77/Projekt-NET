@@ -63,16 +63,13 @@
     </Content>
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
-    <Content Include="Pages\UserManagePage.aspx" />
-    <Content Include="Pages\ProductsPage.aspx" />
     <Content Include="Pages\LoginPage.aspx" />
-    <Content Include="Pages\UserViewModerator.aspx" />
-    <Content Include="Pages\UserViewAdmin.aspx" />
-    <Content Include="Pages\UserViewLogged.aspx" />
-    <Content Include="Pages\ProductsViewAdmin.aspx" />
-    <Content Include="Pages\ProductsViewModerator.aspx" />
-    <Content Include="Pages\ProductsViewLogged.aspx" />
-    <Content Include="Pages\HomePage.aspx" />
+    <Content Include="Pages\Mod\UserViewModerator.aspx" />
+    <Content Include="Pages\Admin\UserViewAdmin.aspx" />
+    <Content Include="Pages\Usr\UserViewLogged.aspx" />
+    <Content Include="Pages\Admin\ProductsViewAdmin.aspx" />
+    <Content Include="Pages\Mod\ProductsViewModerator.aspx" />
+    <Content Include="Pages\Usr\ProductsViewLogged.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -95,20 +92,6 @@
     <Compile Include="Pages\Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="Pages\UserManagePage.aspx.cs">
-      <DependentUpon>UserManagePage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\UserManagePage.aspx.designer.cs">
-      <DependentUpon>UserManagePage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\ProductsPage.aspx.cs">
-      <DependentUpon>ProductsPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\ProductsPage.aspx.designer.cs">
-      <DependentUpon>ProductsPage.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Pages\LoginPage.aspx.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -116,54 +99,47 @@
     <Compile Include="Pages\LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\UserViewModerator.aspx.cs">
+    <Compile Include="Pages\Mod\UserViewModerator.aspx.cs">
       <DependentUpon>UserViewModerator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\UserViewModerator.aspx.designer.cs">
+    <Compile Include="Pages\Mod\UserViewModerator.aspx.designer.cs">
       <DependentUpon>UserViewModerator.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\UserViewAdmin.aspx.cs">
+    <Compile Include="Pages\Admin\UserViewAdmin.aspx.cs">
       <DependentUpon>UserViewAdmin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\UserViewAdmin.aspx.designer.cs">
+    <Compile Include="Pages\Admin\UserViewAdmin.aspx.designer.cs">
       <DependentUpon>UserViewAdmin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\UserViewLogged.aspx.cs">
+    <Compile Include="Pages\Usr\UserViewLogged.aspx.cs">
       <DependentUpon>UserViewLogged.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\UserViewLogged.aspx.designer.cs">
+    <Compile Include="Pages\Usr\UserViewLogged.aspx.designer.cs">
       <DependentUpon>UserViewLogged.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\ProductsViewAdmin.aspx.cs">
+    <Compile Include="Pages\Admin\ProductsViewAdmin.aspx.cs">
       <DependentUpon>ProductsViewAdmin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\ProductsViewAdmin.aspx.designer.cs">
+    <Compile Include="Pages\Admin\ProductsViewAdmin.aspx.designer.cs">
       <DependentUpon>ProductsViewAdmin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\ProductsViewModerator.aspx.cs">
+    <Compile Include="Pages\Mod\ProductsViewModerator.aspx.cs">
       <DependentUpon>ProductsViewModerator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\ProductsViewModerator.aspx.designer.cs">
+    <Compile Include="Pages\Mod\ProductsViewModerator.aspx.designer.cs">
       <DependentUpon>ProductsViewModerator.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\ProductsViewLogged.aspx.cs">
+    <Compile Include="Pages\Usr\ProductsViewLogged.aspx.cs">
       <DependentUpon>ProductsViewLogged.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\ProductsViewLogged.aspx.designer.cs">
+    <Compile Include="Pages\Usr\ProductsViewLogged.aspx.designer.cs">
       <DependentUpon>ProductsViewLogged.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\HomePage.aspx.cs">
-      <DependentUpon>HomePage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\HomePage.aspx.designer.cs">
-      <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

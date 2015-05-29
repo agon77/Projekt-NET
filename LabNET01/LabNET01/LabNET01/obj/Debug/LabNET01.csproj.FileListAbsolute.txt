@@ -10,3 +10,9 @@ C:\Users\Agon\Desktop\LabNET01\LabNET01\LabNET01\bin\LabNET01.pdb
 C:\Users\Agon\Desktop\LabNET01\LabNET01\LabNET01\obj\Debug\LabNET01.dll
 C:\Users\Agon\Desktop\LabNET01\LabNET01\LabNET01\obj\Debug\LabNET01.pdb
 C:\Users\Agon\Desktop\LabNET01\LabNET01\LabNET01\obj\Debug\LabNET01.csprojResolveAssemblyReference.cache
+C:\Users\Agon\Documents\GitHub\Projekt-NET\LabNET01\LabNET01\LabNET01\bin\LabNET01.dll.config
+C:\Users\Agon\Documents\GitHub\Projekt-NET\LabNET01\LabNET01\LabNET01\bin\LabNET01.dll
+C:\Users\Agon\Documents\GitHub\Projekt-NET\LabNET01\LabNET01\LabNET01\bin\LabNET01.pdb
+C:\Users\Agon\Documents\GitHub\Projekt-NET\LabNET01\LabNET01\LabNET01\obj\Debug\LabNET01.dll
+C:\Users\Agon\Documents\GitHub\Projekt-NET\LabNET01\LabNET01\LabNET01\obj\Debug\LabNET01.pdb
+C:\Users\Agon\Documents\GitHub\Projekt-NET\LabNET01\LabNET01\LabNET01\obj\Debug\LabNET01.csprojResolveAssemblyReference.cache

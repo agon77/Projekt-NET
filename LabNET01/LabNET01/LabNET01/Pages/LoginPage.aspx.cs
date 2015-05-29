@@ -26,8 +26,6 @@ namespace LabNET01.Pages
 
         protected void Login1_LoggedIn(object sender, EventArgs e)
         {
-            if(User.Identity.IsAuthenticated)
-                Response.Redirect(String.Format("HomePage.aspx"))
         }
     }
 }
